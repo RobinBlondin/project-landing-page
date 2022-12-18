@@ -1,7 +1,7 @@
 body {
     background-color: rgb(27, 29, 29);
     flex-shrink: 1;
-    transform: scale(1.1);
+    transform: scale(1.0);
     transform-origin: 0 0;
 }
 
@@ -228,4 +228,8 @@ a {
     text-align: center;
     color: #E5E7EB;
     flex-shrink: 1;
+}
+
+html {
+    background-size: cover;
 }
