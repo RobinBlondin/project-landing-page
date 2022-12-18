@@ -1,15 +1,16 @@
 body {
     background-color: rgb(27, 29, 29);
+    flex-shrink: 1;
+    transform: scale(1.1);
+    transform-origin: 0 0;
 }
 
 .body {
-    margin-left: 195px;
-    margin-right: 195px;
+    
     display: flex;
     flex-direction: column;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    flex-wrap: wrap;
-    flex: 1;
+    flex-shrink: 1;
 }
 .header {
     margin: 0;
@@ -26,7 +27,7 @@ body {
     height: 200px;
     width: 500px;
     mix-blend-mode: lighten;
-    flex: 1;
+    flex-shrink: 1;
 }
 .random {
     text-align: center;
@@ -34,13 +35,14 @@ body {
     color: #1F2937;
     font-weight: bolder;
     padding: 50px;
-    flex: 1;
+    flex-shrink: 1;
 }
 .image2 {
     height: 170px;
     width: 170px;
     border: 4px solid #3992F6;
     border-radius: 20px;
+    flex-shrink: 1;
 }
 .info {
     height: auto;
@@ -81,6 +83,7 @@ a {
 .headerLogo {
     font-size: 24px;
     color: #F9FAF8;
+    flex-shrink: 1;
 }
 
 .hero {
@@ -91,16 +94,18 @@ a {
     padding-top: 100px;
     padding-bottom: 110px;
     gap: 40px;
-    flex: 1;
+    flex-shrink: 1;
 }
 
 .heroText {
     padding: 0;
     margin: 0;
     flex-wrap: wrap;
+    height: auto;
     width: 500px;
     font-size: 18px;
     color: #E5E7EB;
+    flex-shrink: 1;
     
 }
 
@@ -110,6 +115,7 @@ a {
     font-size: 48px;
     font-weight: bolder;
     color: #F9FAF8;
+    flex-shrink: 1;
     
 }
 
@@ -123,6 +129,7 @@ a {
     text-align: center;
     font-size: 18px;
     font-weight: bold;
+    flex-shrink: 1;
 }
 
 .button:hover, .buttonTwo:hover {
@@ -155,6 +162,7 @@ a {
     color:#1F2937;
     justify-content: center;
     width: 925px;
+    flex-shrink: 1;
 }
 
 .quoteName {
@@ -166,6 +174,7 @@ a {
     font-size: 24px;
     font-weight: bold;
     color:#1F2937;
+    flex-shrink: 1;
 }
 
 .containerOne {
@@ -188,6 +197,7 @@ a {
     border-radius: 10px;
     color: #E5E7EB;
     gap: 32px;
+    flex-shrink: 1;
 }
 
 .actionTitle {
@@ -195,11 +205,13 @@ a {
     margin: 0;
     font-size: 24px;
     font-weight: bold;
+    flex-shrink: 1;
 }
 
 .actionText{
     padding: 0;
     margin: 0;
+    flex-shrink: 1;
 }
 
 .buttonTwo {
@@ -215,5 +227,5 @@ a {
     align-items: center;
     text-align: center;
     color: #E5E7EB;
-    flex: 1;
+    flex-shrink: 1;
 }
