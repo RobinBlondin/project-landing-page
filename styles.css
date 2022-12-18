@@ -3,18 +3,21 @@ body {
 }
 
 .body {
-    margin-left: 190px;
-    margin-right: 190px;
+    margin-left: 195px;
+    margin-right: 195px;
     display: flex;
     flex-direction: column;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     flex-wrap: wrap;
+    flex: 1;
 }
 .header {
+    margin: 0;
     background-color: #1F2937;
     display: flex;
     justify-content: space-around;
     align-items: center;
+    flex: 1;
     
 }
 
@@ -22,6 +25,7 @@ body {
     height: 200px;
     width: 500px;
     mix-blend-mode: lighten;
+    flex: 1;
 }
 .random {
     text-align: center;
@@ -29,11 +33,12 @@ body {
     color: #1F2937;
     font-weight: bolder;
     padding: 50px;
+    flex: 1;
 }
 .image2 {
     height: 170px;
     width: 170px;
-    border: 5px solid #3992F6;
+    border: 4px solid #3992F6;
     border-radius: 20px;
 }
 .info {
@@ -49,6 +54,7 @@ body {
     justify-content: center;
     align-items: center;
     gap: 50px;
+    flex: 1;
 }
 
 .info {
@@ -82,8 +88,9 @@ a {
     justify-content: center;
     align-items: center;
     padding-top: 100px;
-    padding-bottom: 90px;
+    padding-bottom: 110px;
     gap: 40px;
+    flex: 1;
 }
 
 .heroText {
@@ -93,6 +100,7 @@ a {
     width: 500px;
     font-size: 18px;
     color: #E5E7EB;
+    
 }
 
 .heroTitle {
@@ -101,9 +109,10 @@ a {
     font-size: 48px;
     font-weight: bolder;
     color: #F9FAF8;
+    
 }
 
-.button {
+.button, .buttonTwo {
     padding-top: 10px;
     background-color: #3992F6;
     border-radius: 10px;
@@ -115,18 +124,19 @@ a {
     font-weight: bold;
 }
 
-.button:hover {
+.button:hover, .buttonTwo:hover {
     background-color: cornflowerblue;
 }
 
 .container {
     background-color: white;
-    padding-bottom: 125px;
+    padding-bottom: 110px;
+    flex: 1;
 }
 
 .quoteContainer {
-    padding-top: 125px;
-    padding-bottom: 125px;
+    padding-top: 110px;
+    padding-bottom: 110px;
     background-color: #E5E7EB;
     display: flex;
     flex-direction: column;
@@ -155,4 +165,54 @@ a {
     font-size: 24px;
     font-weight: bold;
     color:#1F2937;
+}
+
+.containerOne {
+    background-color: white;
+    padding-top: 110px;
+    padding-bottom: 110px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
+.containerTwo {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #3882F6;
+    height: 150px;
+    width: 1000px;
+    border-radius: 10px;
+    color: #E5E7EB;
+    gap: 32px;
+}
+
+.actionTitle {
+    padding: 0;
+    margin: 0;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.actionText{
+    padding: 0;
+    margin: 0;
+}
+
+.buttonTwo {
+    border: 2px solid #E5E7EB;
+}
+.footer {
+    margin: 0;
+    background-color: #1F2937;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #E5E7EB;
+    flex: 1;
 }
